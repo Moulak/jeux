@@ -1,0 +1,95 @@
+#conteneur1{
+background-color: burlywood;
+margin: 0%;
+width: 1275px;
+height: 770px;
+color: purple;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+font-style: italic;
+font-weight: bolder;
+font-size: 30px;
+
+}
+#drag-1, #drag-2, #drag-3{
+    margin: 40px;
+    display: inline-block;
+}
+
+#box1, #box2, #box3{
+    width: 240px;
+    height: 240px;
+    margin: 10px;
+    border: solid blueviolet 10px;
+    background-color: blanchedalmond;
+    display: inline-block;
+    border-radius: 10%;
+}
+
+
+#drag-1 {
+    width: 250px;
+    height: 250px;
+    margin: 3px;
+    background-image: url(./images/back2.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 5%;
+    position: absolute;
+    bottom: 15px;
+     
+    left: 10px;
+    touch-action: none;
+    user-select: none;
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+
+}
+
+
+#drag-2 {
+    width: 250px;
+    height: 250px;
+    margin: 3px;
+    background-image: url(./images/back3.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 5%;
+    position: absolute;
+    bottom: 15px;
+    left: 500px;
+    touch-action: none;
+    user-select: none;
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+}
+
+
+
+#drag-3 {
+    width: 250px;
+    height: 250px;
+    margin: 3px;
+    background-image: url(./images/back1.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 5%;
+    position: absolute;
+    bottom: 15px;
+    left: 250px;
+    
+    touch-action: none;
+    user-select: none;
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+}
+
+
+
+
+
+
+
+
+
