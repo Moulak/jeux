@@ -16,7 +16,10 @@ import './App.css';
 class Person extends React.Component {
   render() {
     return (
-      <p>Edited by  {this.props.firstname} {this.props.lastname}</p>
+      <>
+        <p>Edited by  {this.props.firstname} {this.props.lastname}</p>
+        This application rules
+      </>
     );
   }
 }
