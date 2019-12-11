@@ -1,17 +1,17 @@
 #conteneur1{
-background-color: burlywood;
-margin: 0%;
-width: 1275px;
-height: 770px;
-color: purple;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-
-font-style: italic;
-font-weight: bolder;
-font-size: 30px;
-
+    margin: 0%;
+    width: 100%;
+    height: auto;
+    color: purple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    
 }
+
 #drag-1, #drag-2, #drag-3{
     margin: 40px;
     display: inline-block;
@@ -38,13 +38,13 @@ font-size: 30px;
     padding: 5%;
     position: absolute;
     bottom: 15px;
-     
+    
     left: 10px;
     touch-action: none;
     user-select: none;
     -webkit-transform: translate(0px, 0px);
-            transform: translate(0px, 0px);
-
+    transform: translate(0px, 0px);
+    
 }
 
 
@@ -62,7 +62,7 @@ font-size: 30px;
     touch-action: none;
     user-select: none;
     -webkit-transform: translate(0px, 0px);
-            transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
 }
 
 
@@ -82,9 +82,12 @@ font-size: 30px;
     touch-action: none;
     user-select: none;
     -webkit-transform: translate(0px, 0px);
-            transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
 }
 
+body {
+    background-color: burlywood;
+}
 
 
 

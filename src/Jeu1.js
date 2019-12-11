@@ -60,7 +60,7 @@ class Jeu1 extends Component {
            
             
             <div id="conteneur1">                
-                <h2 font-style italic font-weight bolder font-size > Remettre les nombres dans l'ordre de 1 à 3</h2>
+                <h2> Remettre les nombres dans l'ordre de 1 à 3</h2>
 
                   
                 <div id="box1"></div>
